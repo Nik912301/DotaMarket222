@@ -1,0 +1,85 @@
+
+body {
+	padding: 0;
+	background-color: #121212;
+	color: white;
+}
+
+
+
+.top_panel {
+	z-index: -1;
+	background-image: url("bg-market.jpeg") ;
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 80%;
+	height: 90%; 	
+	background-color: #121212;
+	padding: 2% 10% 2% 10%;
+}
+
+.new_panel{
+	margin-top: 900px;
+}
+
+.panel {
+	margin: 0 10% 50px 10%;
+	padding: 25px;
+	border-radius: 250px;
+	height: 400px;
+	background-color: #181818;
+}
+
+button {
+	border-style: none;
+	font-size: 	45px;
+	font-weight: bold;
+	width: 	19%;
+	height: 60px;
+	color: 	white;
+	background-color: #000000;
+}
+
+img {
+	border-radius: 200px;
+	height: 400px;
+	width: 400px;
+}
+
+h1 {
+	margin-top: 550px;
+	color: white;
+	font-size: 	120px;
+	font-weight: bold;
+}
+
+h2 {
+	margin-top: -100px;
+	color: white;
+	font-size: 	30px;
+	font-weight: bolder;
+}
+
+h3 {
+	margin-left: 50px;
+	font-size: 60px;
+	position: absolute;
+	display: inline-block;
+}
+
+h4 {
+	margin: 75px 0 0 510px;
+	font-size: 30px;
+	position: absolute;
+	display: inline-block;
+	color: #E00000;
+}
+
+h5{
+	line-height: 0.9;
+	margin: 150px 400px 100px 50px;
+	font-size: 20px;
+	position: absolute;
+	display: inline-block;
+}
