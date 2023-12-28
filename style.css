@@ -5,8 +5,6 @@ body {
 	color: white;
 }
 
-
-
 .top_panel {
 	z-index: -1;
 	background-image: url("bg-market.jpeg") ;
@@ -24,10 +22,43 @@ body {
 }
 
 .panel {
+	min-height: 400px;
 	margin: 0 10% 50px 10%;
 	padding: 25px;
-	border-radius: 250px;
+	border-radius: 225px;
 	background-color: #181818;
+}
+
+.left_panel {
+	margin-left: 5%;
+}
+
+.right_panel {
+	margin-right: 5%;
+}
+
+.masks_panel {
+	padding: 15px;
+	margin: -8px;
+	background-color: #040404;
+}
+
+.black_panel {
+	border: 1px solid hsla(0,0%,100%,.05);
+	background-color: #090909;
+}
+
+.main_boots_panel {
+	background-color: #040404;
+	padding: 15px;
+	margin: -8px;
+}
+
+.boots_panel {
+	padding: 15px;
+	background-color: #121212;
+	margin: 0 10% 0 10%;
+	border-radius: 150px;
 }
 
 button {
@@ -41,13 +72,22 @@ button {
 }
 
 img {
+	float: left;
 	border-radius: 200px;
 	height: 400px;
 	width: 400px;
 }
 
-h1 {
+.main_titel{
 	margin-top: 550px;
+} 
+
+.title {
+	margin: 25px 0 50px 175px;
+}
+
+h1 {
+	margin-top: 25px;
 	color: white;
 	font-size: 	120px;
 	font-weight: bold;
@@ -61,24 +101,21 @@ h2 {
 }
 
 h3 {
-	margin-left: 50px;
+	margin: 0 0 50px 50px;
 	font-size: 60px;
-	position: absolute;
 	display: inline-block;
 }
 
 h4 {
-	margin: 75px 0 0 510px;
+	vertical-align: 20px;
+	margin-left: 10px;
 	font-size: 30px;
-	position: absolute;
 	display: inline-block;
 	color: #E00000;
 }
 
 h5{
-	line-height: 0.9;
-	margin: 150px 400px 100px 50px;
+	margin: 0 100px 25px 450px;
 	font-size: 20px;
-	position: absolute;
-	display: inline-block;
+
 }
